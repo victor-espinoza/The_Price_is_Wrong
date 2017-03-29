@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Lab 1 - The Price is Wrong", "Lab 1 - The Price is Wrong.exe", "{4174433E-2DBA-49BC-B4A8-12BB5C2E5DD8}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = F:\CECS 282\Lab #1 - The Price is Wrong\Lab 1 - The Price is Wrong\Debug\Lab 1 - The Price is Wrong.exe
+		RemoteMachine = VICTORESPINOZA
+		StartingDirectory = F:\CECS 282\Lab #1 - The Price is Wrong\Lab 1 - The Price is Wrong\Debug
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4174433E-2DBA-49BC-B4A8-12BB5C2E5DD8}.Debug|x86.ActiveCfg = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
