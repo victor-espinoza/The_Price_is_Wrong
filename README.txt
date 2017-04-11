@@ -11,7 +11,7 @@ Sample Output:
 * (a) a run where the user does not switch and wins:
 
 Welcome to another exciting episode of The Price is Wrong!
-____________       ____________       ____________          
+ ____________       ____________       ____________          
 |            |     |            |     |            |  
 |            |     |            |     |            |  
 |  DOOR #1   |     |  DOOR #2   |     |  DOOR #3   |  
@@ -35,7 +35,7 @@ Please select a door (1-3): 25
 Please select a door (1-3): 1
 
 Lets make things interesting... Door #2 has a goat behind it!
-____________
+ ____________
 |            |
 |            |
 |  DOOR #2   |
@@ -58,7 +58,7 @@ n
 
 Alright, lets see what's behind DOOR #1!
 ...
-____________
+ ____________
 |            |
 |            |
 |  DOOR #1   |
@@ -89,7 +89,7 @@ Press any key to continue . . .
 * (b) a run where the user switches and wins
 
 Welcome to another exciting episode of The Price is Wrong!
-____________       ____________       ____________
+ ____________       ____________       ____________
 |            |     |            |     |            |
 |            |     |            |     |            |
 |  DOOR #1   |     |  DOOR #2   |     |  DOOR #3   |
@@ -108,7 +108,7 @@ have a goat behind them.
 Please select a door (1-3): 2
 
 Lets make things interesting... Door #3 has a goat behind it!
-____________
+ ____________
 |            |
 |            |
 |  DOOR #3   |
@@ -126,7 +126,7 @@ Would you like to switch your door with Door #1? (Y/N/y/n):
 Y
 
 Alright, lets see what's behind DOOR #1!...
-____________
+ ____________
 |            |
 |            |
 |  DOOR #1   |
@@ -156,7 +156,7 @@ Press any key to continue . . .
 * (c) a run where the user does not switch and looses
 
 Welcome to another exciting episode of The Price is Wrong!
-____________       ____________       ____________
+ ____________       ____________       ____________
 |            |     |            |     |            |
 |            |     |            |     |            |
 |  DOOR #1   |     |  DOOR #2   |     |  DOOR #3   |
@@ -175,7 +175,7 @@ have a goat behind them.
 Please select a door (1-3): 3
 
 Lets make things interesting... Door #1 has a goat behind it!
-____________
+ ____________
 |            |
 |            |
 |  DOOR #1   |
@@ -193,7 +193,7 @@ Would you like to switch your door with Door #2? (Y/N/y/n):
 n
 
 Alright, lets see what's behind DOOR #3!...
-____________
+ ____________
 |            |
 |            |
 |  DOOR #3   |
@@ -220,7 +220,7 @@ Press any key to continue . . .
 * (d) a run where the user switches and loses
 
 Welcome to another exciting episode of The Price is Wrong!
-____________       ____________       ____________
+ ____________       ____________       ____________
 |            |     |            |     |            |
 |            |     |            |     |            |
 |  DOOR #1   |     |  DOOR #2   |     |  DOOR #3   |
@@ -239,7 +239,7 @@ have a goat behind them.
 Please select a door (1-3): 1
 
 Lets make things interesting... Door #2 has a goat behind it!
-____________
+ ____________
 |            |
 |            |
 |  DOOR #2   |
@@ -261,7 +261,7 @@ Would you like to switch your door with Door #3? (Y/N/y/n):
 Y
 
 Alright, lets see what's behind DOOR #3!...
-____________
+ ____________
 |            |
 |            |
 |  DOOR #3   |
