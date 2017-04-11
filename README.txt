@@ -1,0 +1,285 @@
+# The_Price_is_Wrong
+Project Overview:  
+Simulator of the popular The Price is Right game where user chooses 1 out of 3 doors. One random door has a grand prize behind it and the other two doors have goats behind them.   
+  
+The logic for this program is very simple and straightforward. At the start of the game, a random number between 1-3 is generated to determine which door the grand prize is behind. The user then picks a door to look behind. Before the player's door choice is open, they are shown a door that has a goat behind it and they are offered to option to switch doors with the remaining door that has not been opened yet. After the user's final input is received, I then compare the user's choice to the door number that hides the grand prize. If those numbers match, then the user guessed correctly and they are notified that they won. There are 5 different grand prizes that the player can win and each grand prize for the game being played is randomly chosen. If the player did not choose the correct door, then they are notified that they have lost. Once the results are displayed on the console window, the program then terminates. That is the gist of how this program works. 
+
+Dependencies:   
+Microsoft Visual Studio Express 2012 for Windows Desktop Version: 11.0.61030.00 Update 4
+
+Sample Output:
+* (a) a run where the user does not switch and wins:
+
+Welcome to another exciting episode of The Price is Wrong!
+____________       ____________       ____________          
+|            |     |            |     |            |  
+|            |     |            |     |            |  
+|  DOOR #1   |     |  DOOR #2   |     |  DOOR #3   |  
+|            |     |            |     |            |  
+|            |     |            |     |            |  
+| O          |     | O          |     | O          |  
+|            |     |            |     |            |  
+|            |     |            |     |            |  
+|            |     |            |     |            |  
+|            |     |            |     |            |  
+|            |     |            |     |            |  
+|____________|     |____________|     |____________|  
+  
+Behind only one door lies a great prize; the other two doors
+have a goat behind them.
+Please select a door number (1-3): 12
+Please select a door number (1-3): =5
+
+You must enter a VALID door NUMBER (1-3)!
+Please select a door (1-3): 25
+Please select a door (1-3): 1
+
+Lets make things interesting... Door #2 has a goat behind it!
+____________
+|            |
+|            |
+|  DOOR #2   |
+|            |
+|            |
+|   (GOAT)   |
+|            |
+|            |
+|            |
+|            |
+|            |
+|____________|
+
+Would you like to switch your door with Door #3? (Y/N/y/n):
+Young
+
+Please only enter one character (Y/N/y/n)!
+Would you like to switch your door with Door #3? (Y/N/y/n):
+n
+
+Alright, lets see what's behind DOOR #1!
+...
+____________
+|            |
+|            |
+|  DOOR #1   |
+|            |
+|            |
+|GRAND PRIZE!|
+|            |
+|            |
+|            |
+|            |
+|            |
+|____________|
+
+CONGRADULATIONS!!! You have won the grand prize of:
+
+A brand new home entertainment system! Now you have
+everything you need to entertain guests during a party or just
+enjoy a movie night with your loved ones. This entertainment system
+comes complete with a brand new television, wall mount, surround
+sound speaker system, and a 10 year warranty on each item. Enjoy!
+
+Well, that concludes this episode. See you next time on
+The Price is Wrong!
+
+Press any key to continue . . .
+
+
+* (b) a run where the user switches and wins
+
+Welcome to another exciting episode of The Price is Wrong!
+____________       ____________       ____________
+|            |     |            |     |            |
+|            |     |            |     |            |
+|  DOOR #1   |     |  DOOR #2   |     |  DOOR #3   |
+|            |     |            |     |            |
+|            |     |            |     |            |
+| O          |     | O          |     | O          |
+|            |     |            |     |            |
+|            |     |            |     |            |
+|            |     |            |     |            |
+|            |     |            |     |            |
+|            |     |            |     |            |
+|____________|     |____________|     |____________|
+
+Behind only one door lies a great prize; the other two doors
+have a goat behind them.
+Please select a door (1-3): 2
+
+Lets make things interesting... Door #3 has a goat behind it!
+____________
+|            |
+|            |
+|  DOOR #3   |
+|            |
+|            |
+|   (GOAT)   |
+|            |
+|            |
+|            |
+|            |
+|            |
+|____________|
+
+Would you like to switch your door with Door #1? (Y/N/y/n):
+Y
+
+Alright, lets see what's behind DOOR #1!...
+____________
+|            |
+|            |
+|  DOOR #1   |
+|            |
+|            |
+|GRAND PRIZE!|
+|            |
+|            |
+|            |
+|            |
+|            |
+|____________|
+
+CONGRADULATIONS!!! You have won the grand prize of:
+
+A brand new 2014 Ford Mustang! Man are you lucky; now
+you can ride anywhere in style with this brand new muscle car! It
+isn't even available to the public yet! Warning, may cause an 
+excessive spike in popularity. Just don't forget to put gas in it...
+
+Well, that concludes this episode. See you next time on
+The Price is Wrong!
+
+Press any key to continue . . .
+
+
+* (c) a run where the user does not switch and looses
+
+Welcome to another exciting episode of The Price is Wrong!
+____________       ____________       ____________
+|            |     |            |     |            |
+|            |     |            |     |            |
+|  DOOR #1   |     |  DOOR #2   |     |  DOOR #3   |
+|            |     |            |     |            |
+|            |     |            |     |            |
+| O          |     | O          |     | O          |
+|            |     |            |     |            |
+|            |     |            |     |            |
+|            |     |            |     |            |
+|            |     |            |     |            |
+|            |     |            |     |            |
+|____________|     |____________|     |____________|
+
+Behind only one door lies a great prize; the other two doors
+have a goat behind them.
+Please select a door (1-3): 3
+
+Lets make things interesting... Door #1 has a goat behind it!
+____________
+|            |
+|            |
+|  DOOR #1   |
+|            |
+|            |
+|   (GOAT)   |
+|            |
+|            |
+|            |
+|            |
+|            |
+|____________|
+
+Would you like to switch your door with Door #2? (Y/N/y/n):
+n
+
+Alright, lets see what's behind DOOR #3!...
+____________
+|            |
+|            |
+|  DOOR #3   |
+|            |
+|            |
+|   (GOAT)   |
+|            |
+|            |
+|            |
+|            |
+|            |
+|____________|
+
+Ouch, looks like you ended up choosing the door with
+a goat behind it. What bad luck :(. You missed out on the 
+prize of a lifetime. Better luck next time!
+
+That concludes this episode. Stay tuned for another episode
+of The Price is Wrong, coming up next!
+
+Press any key to continue . . .
+
+
+* (d) a run where the user switches and loses
+
+Welcome to another exciting episode of The Price is Wrong!
+____________       ____________       ____________
+|            |     |            |     |            |
+|            |     |            |     |            |
+|  DOOR #1   |     |  DOOR #2   |     |  DOOR #3   |
+|            |     |            |     |            |
+|            |     |            |     |            |
+| O          |     | O          |     | O          |
+|            |     |            |     |            |
+|            |     |            |     |            |
+|            |     |            |     |            |
+|            |     |            |     |            |
+|            |     |            |     |            |
+|____________|     |____________|     |____________|
+
+Behind only one door lies a great prize; the other two doors
+have a goat behind them.
+Please select a door (1-3): 1
+
+Lets make things interesting... Door #2 has a goat behind it!
+____________
+|            |
+|            |
+|  DOOR #2   |
+|            |
+|            |
+|   (GOAT)   |
+|            |
+|            |
+|            |
+|            |
+|            |
+|____________|
+
+Would you like to switch your door with Door #3? (Y/N/y/n):
+Neptune
+
+Please only enter one character (Y/N/y/n)!
+Would you like to switch your door with Door #3? (Y/N/y/n):
+Y
+
+Alright, lets see what's behind DOOR #3!...
+____________
+|            |
+|            |
+|  DOOR #3   |
+|            |
+|            |
+|   (GOAT)   |
+|            |
+|            |
+|            |
+|            |
+|            |
+|____________|
+
+Ouch, looks like you ended up choosing the door with
+a goat behind it. What bad luck :(. You missed out on the
+prize of a lifetime. Better luck next time!
+
+That concludes this episode. Stay tuned for another episode
+of The Price is Wrong, coming up next!
+
+Press any key to continue . . .
