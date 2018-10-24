@@ -1,5 +1,5 @@
-# The_Price_is_Wrong
-Project Overview:  
+Project Overview: 
+
 Simulator of the popular The Price is Right game where user chooses 1 out of 3 doors. One random door has a grand prize behind it and the other two doors have goats behind them.   
   
 The logic for this program is very simple and straightforward. At the start of the game, a random number between 1-3 is generated to determine which door the grand prize is behind. The user then picks a door to look behind. Before the player's door choice is open, they are shown a door that has a goat behind it and they are offered to option to switch doors with the remaining door that has not been opened yet. After the user's final input is received, I then compare the user's choice to the door number that hides the grand prize. If those numbers match, then the user guessed correctly and they are notified that they won. There are 5 different grand prizes that the player can win and each grand prize for the game being played is randomly chosen. If the player did not choose the correct door, then they are notified that they have lost. Once the results are displayed on the console window, the program then terminates. That is the gist of how this program works. 
